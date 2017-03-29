@@ -2,6 +2,10 @@ environment:
     matrix:
         - TOXENV: py27
 
+init:
+- git --version
+- git config --global --add core.longpaths true
+
 install:
     - "SET PATH=C:\\Python36;C:\\Python36\\Scripts;%PATH%"
     - pip install tox virtualenv --upgrade
