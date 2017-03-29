@@ -17,6 +17,6 @@ build: false
 
 test_script: tox
 
-cache:
-  - '%LOCALAPPDATA%\pip\cache'
-  - '%USERPROFILE%\.pre-commit'
+#cache:
+#  - '%LOCALAPPDATA%\pip\cache'
+#  - '%USERPROFILE%\.pre-commit'
